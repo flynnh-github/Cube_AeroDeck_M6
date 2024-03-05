@@ -5,7 +5,7 @@ The correlations were developed from CFD data calculated using the transient, co
 
 ## Force and Moment Coefficients
 
-We model our aerodynamic forces $\mathbf{F}$ and moments $\mathbf{M}$ as force and moment coefficients
+We model our aerodynamic forces $\mathbf{F}$ and moments $\mathbf{M}$ as force and moment coefficients in body fixed coordinates by
 
 $$ [\mathbf{F}]^{\mathrm{B}} = \frac{1}{2}\rho_{\infty}||v_B||^{2} a_c^2\begin{bmatrix} C_{Fx} (M, \alpha^{\prime}, \phi^{\prime}) \\
 C_{Fy} (M, \alpha^{\prime}, \phi^{\prime}) \\
@@ -15,7 +15,8 @@ $$ [\mathbf{M}]^{\mathrm{B}} = \frac{1}{2}\rho_{\infty}||v_B||^{2} a_c^3\begin{b
 C_{My} (M, \alpha^{\prime}, \phi^{\prime}) \\
 C_{Mz} (M, \alpha^{\prime}, \phi^{\prime}) \end{bmatrix} ^{\mathrm{B}} $$
 
-Where $$
+where $a_c$ is the cube side length, $\rho_\infty$ is the freestream flow density and $M$ is the mach number of the freestream flow. 
+For our modelling, we use aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$. Sometimes $\alpha^{\prime}$ is called the total angle of attack.
 
 
 
