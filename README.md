@@ -5,6 +5,10 @@ The correlations were developed from CFD data calculated using the transient, co
 
 ## Force and Moment Coefficients
 
+We model our aerodynamic forces $\bm{F}$ and moments $\bm{M}$ as force and moment coefficients
+
+$[\bm{F}] = [[],[],[]]$
+
 
 
 
