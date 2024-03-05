@@ -16,7 +16,11 @@ C_{My} (M, \alpha^{\prime}, \phi^{\prime}) \\
 C_{Mz} (M, \alpha^{\prime}, \phi^{\prime}) \end{bmatrix} ^{\mathrm{B}} $$
 
 where $a_c$ is the cube side length, $\rho_\infty$ is the freestream flow density and $M$ is the mach number of the freestream flow. 
-For our modelling, we use aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$. Sometimes $\alpha^{\prime}$ is called the total angle of attack.
+The aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$ and cube velocity relative to the air $v_B$ are illustrated in 
+
+<img width="338" alt="image" src="https://github.com/flynnh-github/Cube_AeroDeck_M6/assets/100339411/4ff02893-c743-4ba4-9b12-207e5e0d2581">
+
+Sometimes $\alpha^{\prime}$ is called the total angle of attack.
 
 
 
