@@ -7,6 +7,11 @@ The correlations were developed from CFD data calculated using the transient, co
 
 To be completed once published.
 
+## TLDR
+
+The regression coefficients for the force and moment coefficients are given in **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**.
+**_example1.py_** and **_example2.py_** show how to use them.
+
 ## Force and Moment Coefficients
 
 We model our aerodynamic forces $\mathbf{F}$ and moments $\mathbf{M}$ as force and moment coefficients in body fixed coordinates by
@@ -41,6 +46,6 @@ $$y_{lm} (\alpha^{\prime}_i, \phi^{\prime}_i) = \begin{cases}
         \end{cases} $$
 
 A linear combination of these basis functions form the correlations $C_{Fi}$, $C_{Mi}$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
-please see _**example1.py**_ and **_example2.py_** for examples of how to use these correlations.
+please see _**example1.py**_ and **_example2.py_** for examples of how to use these basis functions to sample our correlations.
 
 
