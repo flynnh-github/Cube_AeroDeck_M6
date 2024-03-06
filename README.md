@@ -40,4 +40,7 @@ $$y_{lm} (\alpha^{\prime}_i, \phi^{\prime}_i) = \begin{cases}
             \sqrt{2} \left(-1\right)^{m} \Re{\left[Y_l^{m} \left( \alpha_i^{\prime}, \phi_i^{\prime} \right) \right]} & m > 0
         \end{cases} $$
 
-A linear combination of these basis function term forms our correlations $C_{Fi}$, $C_{Mi}$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
+A linear combination of these basis functions form the correlations $C_{Fi}$, $C_{Mi}$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
+please see _**example1.py**_ and **_example2.py_** for examples to sample the correlations.
+
+
