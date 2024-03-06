@@ -3,6 +3,10 @@
 This repository provides correlations for the aerodynamic coefficients of a cube in Mach 6 flow.
 The correlations were developed from CFD data calculated using the transient, compressible flow solver Eilmer (https://gdtk.uqcloud.net/docs/eilmer/about/).
 
+## Citing This Work
+
+To be completed once published.
+
 ## Force and Moment Coefficients
 
 We model our aerodynamic forces $\mathbf{F}$ and moments $\mathbf{M}$ as force and moment coefficients in body fixed coordinates by
@@ -16,12 +20,11 @@ C_{My} (M, \alpha^{\prime}, \phi^{\prime}) \\
 C_{Mz} (M, \alpha^{\prime}, \phi^{\prime}) \end{bmatrix} ^{\mathrm{B}} $$
 
 where $a_c$ is the cube side length, $\rho_\infty$ is the freestream flow density and $M$ is the mach number of the freestream flow. 
-The aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$ and cube velocity relative to the air $v_B$ are illustrated in 
+The aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$ and cube velocity relative to the air $v_B$ are shown below. Sometimes $\alpha^{\prime}$ is called the total angle of attack.
 
 <img width="338" alt="image" src="https://github.com/flynnh-github/Cube_AeroDeck_M6/assets/100339411/4ff02893-c743-4ba4-9b12-207e5e0d2581">
 
-Sometimes $\alpha^{\prime}$ is called the total angle of attack.
-
+## Correlations
 
 
 
