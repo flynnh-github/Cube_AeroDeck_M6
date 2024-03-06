@@ -20,11 +20,15 @@ C_{My} (M, \alpha^{\prime}, \phi^{\prime}) \\
 C_{Mz} (M, \alpha^{\prime}, \phi^{\prime}) \end{bmatrix} ^{\mathrm{B}} $$
 
 where $a_c$ is the cube side length, $\rho_\infty$ is the freestream flow density and $M$ is the mach number of the freestream flow. 
-The aeroballistic flow angles $\alpha^{\prime}$ and $\phi^{\prime}$ and cube velocity relative to the air $v_B$ are shown below. Sometimes $\alpha^{\prime}$ is called the total angle of attack.
+The aeroballistic flow angles, $\alpha^{\prime}$, $\phi^{\prime}$ and cube velocity relative to the air, $v_B$, are shown below.
 
 <img width="338" alt="image" src="https://github.com/flynnh-github/Cube_AeroDeck_M6/assets/100339411/4ff02893-c743-4ba4-9b12-207e5e0d2581">
 
 ## Correlations
 
+The correlations are based on real-valued basis functions defined by spherical harmonics. Spherical harmonics of degree $l$ and order $m$ are described by
 
+$$ \begin{aligned} 
+    Y_l^m(\alpha^{\prime}, \phi^{\prime}) = \sqrt{\frac{2l + 1}{4\pi} \frac{(l-m)!}{(l+m)!}} P_l^m(\cos{\alpha^{\prime}})e^{im\phi^{\prime}}
+   \end{aligned} $$
 
