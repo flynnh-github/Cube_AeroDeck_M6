@@ -41,6 +41,6 @@ $$y_{lm} (\alpha^{\prime}_i, \phi^{\prime}_i) = \begin{cases}
         \end{cases} $$
 
 A linear combination of these basis functions form the correlations $C_{Fi}$, $C_{Mi}$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
-please see _**example1.py**_ and **_example2.py_** for examples to sample the correlations.
+please see _**example1.py**_ and **_example2.py_** for examples of how to use these correlations.
 
 
