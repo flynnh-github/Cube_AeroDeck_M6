@@ -9,7 +9,7 @@ def basis_fn(degree, order, polar, azimuth):
         polar  - Polar angle for evaluation (alpha') [rad]. Can be numpy array.
         azimuth - Azimuth angle for evaluation (phi') [rad]. Can be numpy array.
 
-    Returns f, an
+    Returns the basis function y_lm evaluated at the supplied polar, azimuth.
     """
 
     l = degree; m = order
