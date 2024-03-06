@@ -48,7 +48,7 @@ $$y_{lm} (\alpha^{\prime}_i, \phi^{\prime}_i) = \begin{cases}
 A linear combination of these basis functions form the correlations $C_{Fi}$, $C_{Mi}$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
 please see _**example1.py**_ and **_example2.py_** for examples of how to use these basis functions to sample our correlations. The correlations are shown below.
 
-<img width="800" alt="image" src="https://github.com/flynnh-github/Cube_AeroDeck_M6/assets/100339411/3bb35584-aa00-4ca8-806a-34f384c9aba5">
+<img width="700" alt="image" src="https://github.com/flynnh-github/Cube_AeroDeck_M6/assets/100339411/3bb35584-aa00-4ca8-806a-34f384c9aba5">
 
 
 
