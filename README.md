@@ -10,7 +10,7 @@ To be completed once published.
 ## TLDR
 
 The regression coefficients for the force and moment coefficients are given in **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**, **_CFx.csv_**.
-**_example1.py_** and **_example2.py_** show how to use them.
+Python files **_example1.py_** and **_example2.py_** show how to use them.
 
 ## Force and Moment Coefficients
 
