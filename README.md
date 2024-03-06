@@ -32,10 +32,12 @@ $$ \begin{aligned}
     Y_l^m(\alpha^{\prime}, \phi^{\prime}) = \sqrt{\frac{2l + 1}{4\pi} \frac{(l-m)!}{(l+m)!}} P_l^m(\cos{\alpha^{\prime}})e^{im\phi^{\prime}}
    \end{aligned} $$
 
-where $l$ is a positive integer, $m$ is an integer ($|m| \leq l$) and $P_l^m$ is an associated Legendre Polynomial. Our basis functions forming our correlations are given by
+where $l$ is a positive integer, $m$ is an integer ($|m| \leq l$) and $P_l^m$ is an associated Legendre Polynomial. The basis function $y_{lm}$ is given by
 
-$$  \begin{cases}
+$$y_{lm} (\alpha^{\prime}_i, \phi^{\prime}_i) = \begin{cases}
             \sqrt{2} \left(-1\right)^{m} \Im{\left[Y_l^{\lvert m \rvert}\left( \alpha_i^{\prime}, \phi_i^{\prime} \right) \right]} & m < 0 \\
             Y_l^0 \left( \alpha_i^{\prime}, \phi_i^{\prime} \right) & m = 0 \\
             \sqrt{2} \left(-1\right)^{m} \Re{\left[Y_l^{m} \left( \alpha_i^{\prime}, \phi_i^{\prime} \right) \right]} & m > 0
         \end{cases} $$
+
+A linear combination of these basis function term forms our correlations $C_Fi$, $C_Mi$, where $i = x^{\mathrm{B}}, y^{\mathrm{B}}$ or $z^{\mathrm{B}}$.
